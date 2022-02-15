@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/morphing-shapes-starter/precache-manifest.5ef1156b1c3cc29ac1d753cedd95aa93.js"
+  "/morphing-shapes-starter/precache-manifest.9be7363d502c5a1cf30a6b10ec831c5f.js"
 );
 
 self.addEventListener('message', (event) => {
