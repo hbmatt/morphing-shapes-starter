@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+	background-color: #ecedef;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 500;
+	color: #181818;
+}
+
+main {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+  font-weight: 800;
+  font-size: 1.2em;
+	border-bottom: #eecf02 2px solid;
+	transition: linear .2s;
+}
+
+a:hover {
+	color: #0169E4;
+	border-bottom: #d83a48 2px solid;
+}
+
+.content-wrap {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.content {
+	position: relative;
+	justify-content: center;
+	align-items: center;
+  text-align: center;
+}
+
+.content-title {
+	font-family: 'fugaz one', sans-serif;
+	font-size: 8em;
+	line-height: 160px;
+	margin: 0;
+	cursor: default;
+	color: #d83a48;
+}
+
+.label {
+	margin: 0 1em 0.15em;
+	padding-bottom: .15em;
+}
+
+.subtitle {
+	font-family: 'fugaz one', sans-serif;
+	font-size: 6em;
+	line-height: 1;
+	margin: 0;
+	cursor: default;
+	color: #d83a48;
+}
+
+.morph-wrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.morph {
+	position: relative;
+	height: 100%;
+	fill: #eecf02;
+	flex: none;
+}

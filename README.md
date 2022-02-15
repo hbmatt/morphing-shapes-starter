@@ -1,0 +1,1 @@
+A simple personal site built using React featuring morphing background shapes animated by Framer Motion.
